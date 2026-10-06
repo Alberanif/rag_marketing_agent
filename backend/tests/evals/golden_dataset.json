@@ -1,0 +1,31 @@
+[
+  {
+    "id": "eval-01",
+    "question": "Qual foi o investimento total realizado no terceiro trimestre de 2026?",
+    "ground_truth_context": "No terceiro trimestre de 2026, as campanhas de Google Ads e Meta Ads apresentaram crescimento expressivo de conversões. O investimento total foi de R$ 150.000, gerando um ROAS médio de 4.8 e CAC de R$ 42,50.",
+    "ground_truth_answer": "O investimento total realizado no terceiro trimestre de 2026 foi de R$ 150.000.",
+    "expected_metrics": ["INVESTIMENTO", "ROAS", "CAC"]
+  },
+  {
+    "id": "eval-02",
+    "question": "Qual canal de mídia paga obteve o maior ROAS e qual foi o valor?",
+    "ground_truth_context": "Google Ads: Investimento R$ 80.000, ROAS 5.2, CAC R$ 38,00. Meta Ads: Investimento R$ 50.000, ROAS 4.5, CAC R$ 44,00. TikTok Ads: Investimento R$ 20.000, ROAS 3.8, CAC R$ 52,00.",
+    "ground_truth_answer": "O canal com o maior ROAS foi o Google Ads, atingindo 5.2.",
+    "expected_metrics": ["ROAS", "GOOGLE ADS"]
+  },
+  {
+    "id": "eval-03",
+    "question": "Qual foi o CAC médio do canal TikTok Ads nas campanhas?",
+    "ground_truth_context": "TikTok Ads: Investimento R$ 20.000, ROAS 3.8, CAC R$ 52,00.",
+    "ground_truth_answer": "O CAC do TikTok Ads foi de R$ 52,00.",
+    "expected_metrics": ["CAC", "TIKTOK ADS"]
+  },
+  {
+    "id": "eval-04",
+    "question": "Qual foi a taxa de rejeição da landing page de Black Friday no Japão?",
+    "ground_truth_context": "O relatório contém apenas dados de campanhas pagas no Brasil de Google Ads, Meta Ads e TikTok Ads para o Q3 2026.",
+    "ground_truth_answer": "Essa informação não está presente nos relatórios internos disponíveis.",
+    "is_out_of_scope": true,
+    "expected_metrics": []
+  }
+]
